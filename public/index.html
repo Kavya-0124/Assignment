@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management Application</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4">Task Management Application</h1>
+
+    <div id="task-form" class="mb-4">
+      <h3>Add New Task</h3>
+      <form>
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea id="description" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="due-date">Due Date</label>
+          <input type="date" id="due-date" class="form-control">
+        </div>
+        <button type="button" id="add-task-btn" class="btn btn-primary">Add Task</button>
+      </form>
+    </div>
+
+    <h3>Tasks</h3>
+    <ul id="task-list" class="list-group">
+      <!-- Tasks will be dynamically added here -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+  

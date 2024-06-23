@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  #task-list {
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-item .task-details {
+    flex: 1;
+  }
+  
+  .task-item .task-actions {
+    margin-left: 20px;
+  }
+  
